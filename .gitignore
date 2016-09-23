@@ -1,0 +1,5 @@
+# stack files
+/.stack-work/
+
+# emacs temp files
+*~
