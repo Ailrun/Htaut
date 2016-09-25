@@ -1,6 +1,9 @@
 module Htaut
   (
+    module Htaut.Proving,
+    module Htaut.Proposition
   )
 where
 
-import Htaut.Proposition()
+import Htaut.Proving
+import Htaut.Proposition
