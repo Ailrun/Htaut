@@ -45,4 +45,4 @@ instance (Prop a, Prop b) => Prop (a `Or` b) where
   bottomImply = Left . bottomImply
 
 -- Biconditionals
-type a <-> b = (a -> b) `And` (b -> a)
+type a <-> b = (b -> a) `And` (a -> b)
