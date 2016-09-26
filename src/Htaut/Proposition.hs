@@ -15,10 +15,8 @@ module Htaut.Proposition
   )
 where
 
-
 class Prop a where
   bottomImply :: Bottom -> a
-
 
 -- Top and Bottom
 data Top = Top
@@ -31,7 +29,7 @@ instance Prop Bottom where
 
 -- Negations
 type Neg a = a -> Bottom
-  
+
 -- Implications
 instance (Prop a, Prop b) => Prop (a -> b) where
   bottomImply f = const (bottomImply f)
