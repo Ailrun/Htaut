@@ -1,5 +1,5 @@
 name:                htaut
-version:             0.1.0.0
+version:             0.1.1.0
 synopsis:            Tautology Proving Logic in Haskell
 description:         Please see README.md
 homepage:            https://github.com/ailrun/htaut#readme
