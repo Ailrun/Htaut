@@ -2,11 +2,11 @@
 -- Module      : Htaut.Proposition
 -- Description :
 -- Copyright   : (c) Junyoung Clare Jang, 2016-
--- Licenses    : see LICENSE
+-- License     : see LICENSE
 -- Maintainer  : Junyoung Clare Jang <jjc9310@gmail.com>
 -- Portability : Windows, POSIX
 --
--- Proposition types and typeclasses
+-- Proposition types and typeclasses, and instances.
 --
 {-# LANGUAGE EmptyDataDecls #-}
 {-# LANGUAGE TypeOperators #-}

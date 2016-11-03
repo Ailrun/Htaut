@@ -1,7 +1,6 @@
 module Htaut.Proving
   (
-    Prove(..),
-    exfalso
+    Prove(..)
   )
 where
 
@@ -17,6 +16,3 @@ instance Applicative Prove where
 instance Monad Prove where
   return = pure
   Evidence a >>= f = f a
-
-exfalso :: (Prop a) => Prove (Bottom -> a)
-exfalso = Evidence bottomImply
