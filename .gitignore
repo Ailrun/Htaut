@@ -1,5 +1,8 @@
 # stack files
 /.stack-work/
 
+# emacs setting files
+.projectile
+
 # emacs temp files
 *~
