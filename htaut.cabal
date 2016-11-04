@@ -1,5 +1,5 @@
 name:                htaut
-version:             0.2.0.0
+version:             0.3.0.0
 synopsis:            Tautology Proving Logic in Haskell
 description:         Haskell integrated TAUtology prover in Type level.
                      Proving some transformations, and use them as haskell functions.

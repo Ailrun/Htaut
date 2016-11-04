@@ -11,3 +11,10 @@
 ### 0.2.0.0
 
 1. Reverse biconditional constructor
+
+## 0.3
+
+### 0.3.0.0
+
+1. Add SafeProp and UnsafeProp typeclasses
+2. More documentation supports
