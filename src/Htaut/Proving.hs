@@ -1,11 +1,20 @@
+-- |
+-- Module      : Htaut.Proving
+-- Description :
+-- Copyright   : (c) Junyoung Clare Jang, 2016-
+-- License     : see LICENSE
+-- Maintainer  : Junyoung Clare Jang <jjc9310@gmail.com>
+-- Portability : Windows, POSIX
+--
+-- Proof types and instances.
+--
 module Htaut.Proving
   (
     Prove(..)
   )
 where
 
-import Htaut.Proposition
-
+-- | The type
 data Prove a = Evidence a
 
 instance Functor Prove where

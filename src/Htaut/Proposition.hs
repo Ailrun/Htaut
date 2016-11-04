@@ -26,7 +26,8 @@ module Htaut.Proposition
   )
 where
 
--- | The Class of propositions.
+
+-- | The class of propositions.
 --
 class Prop a
 
@@ -41,6 +42,7 @@ class (Prop a) => SafeProp a
 --
 class (Prop a) => UnsafeProp a where
   bottomImply :: Bottom -> a
+
 
 -- Top and Bottom
 -- | The types for top proposition,
