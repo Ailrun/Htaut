@@ -17,4 +17,5 @@
 ### 0.3.0.0
 
 1. Add SafeProp and UnsafeProp typeclasses
-2. More documentation supports
+2. Add simple actions.
+3. More documentation supports
