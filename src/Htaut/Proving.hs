@@ -14,8 +14,8 @@ module Htaut.Proving
   )
 where
 
--- | The type
-data Prove a = Evidence a
+-- | The type for proving
+data Prove a = Evidence {useEvidence :: a}
 
 instance Functor Prove where
   fmap f (Evidence x) = Evidence (f x)
