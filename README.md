@@ -1,11 +1,11 @@
 # Htaut #
 
 [![travis build][travis shield]][travis link]
-[![hackage version][hackage shield][hackage link]]
+[![hackage version][hackage shield]][hackage link]
 
 [travis shield]: https://travis-ci.org/Ailrun/Htaut.svg
 [travis link]: https://travis-ci.org/Ailrun/Htaut
-[hackage version]: https://img.shields.io/hackage/v/htaut.svg?maxAge=2592000
+[hackage shield]: https://img.shields.io/hackage/v/htaut.svg?maxAge=2592000
 [hackage link]: http://hackage.haskell.org/package/htaut
 
 **Haskell integrated** TAUtology prover in Type level.
