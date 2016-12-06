@@ -1,0 +1,14 @@
+# TeX result files
+_minted-*/
+auto/
+*.log
+*.out
+*.vrb
+*.pdf
+*.aux
+*.toc
+*.bbl
+*.blg
+
+# emacs temp files
+*~
